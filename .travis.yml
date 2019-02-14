@@ -5,7 +5,7 @@ env:
 # /!\ N'Y METTEZ PAS d'informations sensibles !
 # pour cela, utilisez les fonctionnalités de Travis CI
 
-langage: C
+langage: c
 
 before_install:
   - gem install prawn -v 2.1.0   # dependance d'asciidoctor
@@ -13,7 +13,7 @@ before_install:
   - gem install asciidoctor-pdf --pre # pour générer le PDF
 
 script:
-# mettez ici compilation et génération de documentation
+
 
 deploy:
   # section de configuration des github pages
